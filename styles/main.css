@@ -1,0 +1,47 @@
+body{
+    font-weight: 700;
+    width: 650px;
+    margin: 0 auto !important;
+    background-image: url("../images/tablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'BioRhyme Expanded', serif;
+}
+h1,h2{
+    color: white;
+    background: #4d8cc5;
+    width: 50%;
+    padding: 10px;
+}
+#todo{
+    width: 250px;
+    height: 34px;
+    border-radius: 4px;
+}
+#submit{
+    height: 39px;
+}
+
+#examp{
+    margin-bottom: 0px;
+}
+
+ul{
+    background: white;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 15px;
+    margin: 0px 5px 5px 0px;
+    
+}
+ul li.example{
+    color: gray;
+}
+ul li{
+    list-style-type: circle;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px solid gray;
+}
